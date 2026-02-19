@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background: black;
+  color: white;
+  overflow-x: hidden;
+}
+
+/* Scroll Canvas */
+.scroll-container {
+  height: 300vh;
+}
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+/* Resume Content */
+.content {
+  position: relative;
+  padding: 100px 10%;
+  background: #111;
+}
+
+.content h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.tagline {
+  margin-bottom: 40px;
+  color: #00ffff;
+}
+
+.card {
+  background: #1a1a1a;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0,255,255,0.2);
+}
+
+/* Chat Widget */
+.chat-widget {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 320px;
+  background: #1c1c1c;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,255,255,0.3);
+  overflow: hidden;
+}
+
+.chat-header {
+  background: #00ffff;
+  color: black;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.chat-body {
+  height: 250px;
+  overflow-y: auto;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.chat-input {
+  display: flex;
+}
+
+.chat-input input {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  outline: none;
+}
+
+.chat-input button {
+  padding: 10px;
+  background: #00ffff;
+  border: none;
+  cursor: pointer;
+}
