@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Kameshwaran | Resume Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Scroll Animation Canvas -->
+  <div class="scroll-container">
+    <canvas id="scrollCanvas"></canvas>
+  </div>
+
+  <!-- Resume Content Section -->
+  <section class="content">
+    <h1>KAMESHWARAN M</h1>
+    <p class="tagline">Electronics and Communication Engineering Student</p>
+
+    <div class="card">
+      <h2>Summary</h2>
+      <p>
+        Motivated PreFinal-year Electronics and Communication Engineering student 
+        with knowledge in digital electronics, analog circuits, embedded systems, 
+        C/Python programming and IoT concepts.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>Education</h2>
+      <p><strong>B.E ECE (2023-2027)</strong></p>
+      <p>Government College of Engineering, Tirunelveli</p>
+      <p>CGPA: 7.9</p>
+    </div>
+
+    <div class="card">
+      <h2>Technical Skills</h2>
+      <ul>
+        <li>Digital & Analog Electronics</li>
+        <li>C / Python Programming</li>
+        <li>Embedded Systems (Arduino, Microcontrollers)</li>
+        <li>MATLAB & Proteus</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Contact</h2>
+      <p>📞 9361887323</p>
+      <p>📧 mkamesh540@gmail.com</p>
+      <p>📍 Karaikudi, Tamil Nadu</p>
+    </div>
+  </section>
+
+  <!-- Chatbox Widget -->
+  <div class="chat-widget">
+    <div class="chat-header">Ask About My Resume</div>
+    <div class="chat-body" id="chatBody"></div>
+    <div class="chat-input">
+      <input type="text" id="userInput" placeholder="Ask about skills, CGPA..." />
+      <button onclick="sendMessage()">Send</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
